@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Tip Calculator</h1>
+            <div class="form-element">
+                <label for="billAmount">Bill Amount: </label>
+                <input id="billAmount" name="billAmount" type="text" placeholder="0.00">
+            </div>
+            <br />
+            <div class="form-element">
+                <label for="tipPpercentage">Tip Percentage: </label>
+                <input id="tipPercentage" name="tipPercentage" type="text" placeholder="0">
+            </div>
+            <br />
+            <div class="form-element">
+                <label for="noOfPeople">Number of People: </label>
+                <input id = "noOfPeople" name="noOfPeople" type="text" placeholder="1">
+            </div>
+            <br />
+            <button id="calculate">Tip Me!</button>
+            <br />
+
+            <h4 class="hidden">EACH PERSON TIPS: $<span id="result">0.00</span></h4>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
