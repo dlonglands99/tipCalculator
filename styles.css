@@ -6,6 +6,7 @@ h1 {
 
 body {
     font-family: 'Roboto Mono', monospace;
+    background: linear-gradient(to right, #ff4b1f, #ff9068);
 }
 
 .hidden {

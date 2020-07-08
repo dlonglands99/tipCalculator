@@ -17,6 +17,13 @@ function calculateTips() {
     result.textContent = tipAmount;
 };
 
+document.onkeypress = function(e) {
+    if (e.keyCode == 13) {
+        calculateTips();
+        display.classList.remove("hidden");
+    }
+};
+
 btnCalculate.addEventListener("click", () => {
     calculateTips();
     display.classList.remove("hidden");
